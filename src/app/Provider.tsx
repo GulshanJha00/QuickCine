@@ -33,6 +33,7 @@ const Provider: React.FC<{ children?: React.ReactNode }> = ({ children }) => {
         imageUrl: user?.imageUrl,
       });
     }
+    console.log(result)
   };
 
   return <div>{children}</div>;
