@@ -6,8 +6,8 @@ import { Outfit } from "next/font/google";
 
 
 export const metadata: Metadata = {
-  title: "QuickCine",
-  description: "AI Generated Videos in just one click",
+  title: "InnoAI",
+  description: "AI Generated Content in just one click",
 };
 const outfit = Outfit({subsets: ["latin"] })
 
@@ -23,6 +23,7 @@ export default function RootLayout({
       >
         <ClerkProvider>
           <Provider>
+            
             {children}
           </Provider>
           
